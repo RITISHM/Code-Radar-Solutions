@@ -1,13 +1,17 @@
 #include <stdio.h>
 #include <math.h>
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
 
 int main() {
-    int num, pos,num2;
-    scanf("%d %d",&num,&pos);
-    num2=pow(2,pos);
-    
+    int a, b,c;
+    scanf("%d %d",&a,&b);
+    c=pow(2,b);
+    if   ((a>>b)%2){
+    a=a&~c;
+    printf("%d",a);
+}
+    else{
+      a=a|c; 
+      printf("%d",a);
+    }
     return 0;
 }
