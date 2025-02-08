@@ -2,7 +2,7 @@
 #include <math.h>
 #include <stdbool.h>
 int main() {
-    bool result=0;
+    bool result=False;
     int a;
     int b=pow(2,31);
     scanf("%d ",&a);
