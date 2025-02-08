@@ -2,11 +2,11 @@
 #include <math.h>
 
 int main() {
-    int a, b;
-    scanf("%d%d",&a,&b);
-    b=pow(2,b);
+    int a, b,r;
+    scanf("%d %d",&a,&b);
+    r=pow(2,b);
   
-    a=a&~b;
+    a=a&~r;
     printf("%d",a);
     return 0;
 }
