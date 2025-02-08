@@ -2,10 +2,10 @@
 #include <math.h>
 #include <stdbool.h>
 int main() {
-    bool result=False;
+    bool result=false;
     long a;
     int b=pow(2,31);
-    scanf("%d ",&a);
+    scanf("%ld ",&a);
     result= a>=b;
     if (result){
     printf("Set");
