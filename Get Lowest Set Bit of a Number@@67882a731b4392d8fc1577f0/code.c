@@ -5,9 +5,9 @@ char* welcome() {
 }
 
 int main() {
-    float a;
+    float a;int r;
     scanf("%f",&a);
-    a=(int) a/2;
-    printf("%d",a-1);
+    r= a/2;
+    printf("%d",r);
 
 }
