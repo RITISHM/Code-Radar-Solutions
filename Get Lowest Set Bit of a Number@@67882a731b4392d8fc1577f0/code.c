@@ -6,12 +6,12 @@ int getLowestSetBitPosition(int n) {
 
 int main() {
     int number;
-    printf("Enter an integer: ");
+  
     scanf("%d", &number);
     
     int position = getLowestSetBitPosition(number);
     
-    printf("%d",position);
+    printf("%d",position-1);
 
     return 0;
 }
