@@ -4,7 +4,7 @@
 int main() {
     bool result=false;
     long a;
-    long b=pow(2,31)+1;
+    long b=pow(2,31)+2;
     scanf("%ld",&a);
     result= a>=b;
     if (result){
