@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <math.h>
+#include <stdbool.h>
 int main() {
-    int result=0;
+    bool result=0;
     int a;
     int b=pow(2,31);
     scanf("%d ",&a);
