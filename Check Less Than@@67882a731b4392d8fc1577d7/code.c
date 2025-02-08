@@ -5,8 +5,8 @@ int main() {
     bool result=false;
     int a,b;
     scanf("%d %d",&a,&b);
-    result= a>b;
-    if (!result) {
+    result= a<b;
+    if (result) {
         printf("True");
     } else {
         printf("False");
