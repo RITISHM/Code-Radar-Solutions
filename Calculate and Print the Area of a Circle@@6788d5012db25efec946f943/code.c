@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define pi 3.14;
+#define pi 3.14
 char* welcome() {
     return "Welcome to Code Radar!";
 }
