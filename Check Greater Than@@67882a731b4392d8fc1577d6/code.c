@@ -4,6 +4,7 @@ char* welcome() {
 }
 
 int main() {
+    bool result;
     printf("%s", welcome());
     return 0;
 }
