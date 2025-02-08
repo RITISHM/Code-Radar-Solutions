@@ -6,7 +6,7 @@ char* welcome() {
 
 int main() {
     double a;
-    scanf("%df,&a);
+    scanf("%f",&a);
     printf("%f", a);
     return 0;
 }
