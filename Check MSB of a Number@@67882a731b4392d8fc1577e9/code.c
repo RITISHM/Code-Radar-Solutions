@@ -6,7 +6,7 @@ int main() {
     long a;
     long b=pow(2,31)+2;
     scanf("%ld",&a);
-    result= a>=b;
+    result= a>=b && a>0 || a<=b&&a<0;
     if (result){
     printf("Set");
     }
