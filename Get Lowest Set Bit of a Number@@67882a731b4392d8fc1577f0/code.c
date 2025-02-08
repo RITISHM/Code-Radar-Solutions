@@ -1,17 +1,13 @@
 #include <stdio.h>
-
-int getLowestSetBitPosition(int n) {
-    return __builtin_ffs(n);
+#include <math.h>
+char* welcome() {
+    return "Welcome to Code Radar!";
 }
 
 int main() {
-    int number;
-  
-    scanf("%d", &number);
-    
-    int position = getLowestSetBitPosition(number);
-    
-    printf("%d",position-1);
+    float a;int r;
+    scanf("%f",&a);
+    r= sqrt(a);
+    printf("%d",r);
 
-    return 0;
 }
