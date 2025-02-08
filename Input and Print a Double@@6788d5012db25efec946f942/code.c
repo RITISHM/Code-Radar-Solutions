@@ -7,6 +7,6 @@ char* welcome() {
 int main() {
     double a;
     scanf("%d",&a);
-    printf("%.2d", a);
+    printf("%d", a);
     return 0;
 }
