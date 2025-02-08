@@ -6,7 +6,7 @@ int main() {
     scanf("%d %d",&a,&b);
     r=pow(2,b);
   
-    a=a&~r;
-    printf("%d",a);
+    b=a&~r;
+    printf("%d",b);
     return 0;
 }
