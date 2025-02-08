@@ -2,10 +2,10 @@
 #include <math.h>
 
 int main() {
-    int a, b;
+    int a, b, r;
     scanf("%d %d",&a,&b);
-    b=pow(2,b);
-    a=a!&b;
-    printf("%d",a);
+    r=pow(2,b);
+    b=a!&r;
+    printf("%d",b);
     return 0;
 }
