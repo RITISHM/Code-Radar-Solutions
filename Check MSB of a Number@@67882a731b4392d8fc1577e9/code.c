@@ -4,7 +4,7 @@ int main() {
     int result=0;
     int a;
     int b=pow(2,31);
-    scanf("%d %d",&a);
+    scanf("%d ",&a);
     result= a>=b;
     if (result){
     printf("Set");
