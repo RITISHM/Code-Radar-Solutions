@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <math.h>
 char* welcome() {
     return "Welcome to Code Radar!";
 }
@@ -7,7 +7,7 @@ char* welcome() {
 int main() {
     float a;int r;
     scanf("%f",&a);
-    r= a/2;
+    r= sqrt(a);
     printf("%d",r);
 
 }
