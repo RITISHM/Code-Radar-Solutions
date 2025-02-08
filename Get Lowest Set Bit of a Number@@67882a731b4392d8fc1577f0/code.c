@@ -7,7 +7,7 @@ char* welcome() {
 int main() {
     float a;
     scanf("%f",&a);
-    a=(int) a/2;
+    a=(int) a/2-1;
     printf("%d",a);
 
 }
