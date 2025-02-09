@@ -4,6 +4,7 @@
 int main() {
     int a, b,c;
     scanf("%d %d",&a,&b);
+    if (b>0)
     c=pow(2,b);
     if   ((a>>b)%2){
     a=a&~c;
