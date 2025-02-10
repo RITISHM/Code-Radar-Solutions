@@ -9,7 +9,7 @@ int main() {
     char ch;
     scanf("%c",&ch);
 
-    if (isalpha(ch)){
+    if (isalpha(tolower(ch))){
          if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
             printf("Vowel");
             }
