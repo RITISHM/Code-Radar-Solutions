@@ -4,12 +4,13 @@ void main(){
     scanf("%d",&num);
     for (int i=0;i<n/2;i++){
         if (num%i==0){
-            r=0;
+            r=!r;
+            break;
         }
     }
-    if(r==1){
+    if(r){
         printf("Prime");}
     
-    else{("Not Prime");}
+    else{printf("Not Prime");}
     
     }
