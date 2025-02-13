@@ -12,7 +12,7 @@ void main(){
         else{
 
             for (int j=0; j<l;j++){
-                    if (i==0||i==l){
+                    if (j==0||j==l){
                     printf("*");
                     }
                     else{
@@ -20,6 +20,5 @@ void main(){
                     }
             }
         }
-
-        printf("\n");
+    printf("\n");
 }}
