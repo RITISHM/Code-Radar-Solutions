@@ -4,7 +4,7 @@
 int main() {
     int a, b,r=1;
     scanf("%d %d",&a,&b);
-    for (int i;i<=b;i++){
+    for (int i=1;i<=b;i++){
         r*=2;
   }
     b=a&(~r);
