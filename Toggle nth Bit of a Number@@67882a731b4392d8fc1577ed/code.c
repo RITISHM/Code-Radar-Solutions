@@ -7,7 +7,7 @@ int main() {
     for (int i=1;i<=b;i++){
         r*=2;
   }
-    a=a&~c;
+    a=a&~r;
     printf("%d",a);
 
     return 0;
