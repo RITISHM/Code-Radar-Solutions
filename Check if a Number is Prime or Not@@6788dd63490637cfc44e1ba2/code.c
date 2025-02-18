@@ -10,7 +10,7 @@ int main() {
             break;
         }
     }
-    if (r == 1 && num > 1) {
+    if (r && num > 1) {
         printf("Prime\n");
     } else {
         printf("Not Prime\n");
