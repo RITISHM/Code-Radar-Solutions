@@ -2,18 +2,13 @@
 #include <math.h>
 
 int main() {
-    int a, b,c;
+    int a, b,r=1;
     scanf("%d %d",&a,&b);
-    if (b!=0){
-
-    c=pow(2,b);}
-    if   ((a>>b)%2){
+    for (int i=1;i<=b;i++){
+        r*=2;
+  }
     a=a&~c;
     printf("%d",a);
-}
-    else{
-      a=a|c; 
-      printf("%d",a);
-    }
+
     return 0;
 }
