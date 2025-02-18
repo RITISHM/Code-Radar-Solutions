@@ -6,7 +6,7 @@ int main() {
     scanf("%d %d",&a,&b);
     for (int i;i<=b;i++){
         r*=2;
-  {
+  }
     b=a&~r;
     printf("%d",b);
     return 0;
