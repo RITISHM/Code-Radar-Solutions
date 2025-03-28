@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 int main (){
     int n,max=-1;
     scanf("%d",&n);
