@@ -15,7 +15,7 @@ int main (){
             count++;
         }
        }
-       printf("%d %d",count,arr[i]);
+       printf("%dc %d",count,arr[i]);
        if (count>size/2){
         key==arr[i];
        }
