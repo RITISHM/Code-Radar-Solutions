@@ -8,19 +8,17 @@ int main (){
     }
 
     scanf("%d",&key);
-    for (int i=size-1;i>=key;i--){
-        if (i-key){
-            arr1[i-key]=arr[i];
+    for (int i=0;i<size;i++){
+        if (i+key<size){
+            arr1[i+key]=arr[i];
         }
     }
-
-    for (int i=0;i<key;i++){
-        arr1[size-key+i]=arr[i];
+    int j=0;
+    for (int i=size-key;i<size;i++){
+        arr1[j++]=arr[i];
     }
     for (int i=0;i<size;i++){
         printf("%d ",arr1[i]);
 
     }
 }                                                                                                         
-
-
