@@ -7,11 +7,11 @@ int main (){
         scanf("%d",&arr[i]);
     }
 
- 
+    scanf("%d",&key);
     for (int i=size-1;i>=key;i--){
-
+        if (i-key+1){
             arr1[i-key]=arr[i];
-        
+        }
     }
 
     for (int i=0;i<key;i++){
@@ -22,3 +22,5 @@ int main (){
 
     }
 }                                                                                                         
+
+
