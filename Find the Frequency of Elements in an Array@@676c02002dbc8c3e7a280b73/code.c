@@ -14,7 +14,7 @@ int main (){
         for (int j=0;j<size;j++){
             if (arr[i]==arr[j] && j>i){
                 
-                        arr1[i]=[n+1];
+                        arr1[i]=n+1;
                     }
         }
      
