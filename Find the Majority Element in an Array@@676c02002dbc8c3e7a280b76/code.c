@@ -15,10 +15,10 @@ int main (){
             count++;
         }
        }
-       printf("%dc %d\n",count,arr[i]);
+       
        if (count>size/2){
-        key==arr[i];
-        break;
+        key=arr[i];
+       
        }
    }
 
