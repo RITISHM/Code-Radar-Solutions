@@ -12,12 +12,13 @@ int main (){
             key=0;
             break;
         }
-        if (key){
+        
+    }
+    if (key){
             printf("Sorted");
         }
         else{
             printf("Not Sorted");
         }
-    }
 return 0;
 }                                                                                                         
