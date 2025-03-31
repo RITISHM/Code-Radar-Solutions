@@ -24,4 +24,3 @@ int main (){
 }                                                                                                         
 
 
-rotate wala question
