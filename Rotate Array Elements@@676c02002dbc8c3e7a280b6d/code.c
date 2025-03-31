@@ -7,7 +7,7 @@ int main (){
         scanf("%d",&arr[i]);
     }
 
-    scanf("%d"&key);
+    scanf("%d",&key);
     for (int i=0;i<size;i++){
         if (i+key<size){
             arr1[i+key]=arr[i];
