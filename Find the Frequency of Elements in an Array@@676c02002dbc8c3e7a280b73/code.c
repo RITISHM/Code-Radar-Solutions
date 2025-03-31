@@ -13,7 +13,7 @@ int main (){
         int n=1;
         for (int j=0;j<size;j++){
             if (arr[i]==arr[j] && j>i){
-                    int arr3={arr[i] ,n+1 };
+                    int arr3[2]={arr[i] ,n+1 };
                         arr1[i]=arr3;
                     }
         }
