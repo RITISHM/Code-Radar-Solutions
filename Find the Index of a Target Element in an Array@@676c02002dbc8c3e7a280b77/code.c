@@ -15,11 +15,10 @@ int main (){
         }
       
        }
-       
+       printf("%d",index);
    }
 
    
-    printf("%d",index);
+    
 
  
-}                                                                                                         
