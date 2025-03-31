@@ -8,6 +8,9 @@ int main (){
     }
 
     scanf("%d",&key);
+    if (key>size){
+        key=key-size;
+    }
     for (int i=0;i<size;i++){
         if (i+key<size){
             arr1[i+key]=arr[i];
