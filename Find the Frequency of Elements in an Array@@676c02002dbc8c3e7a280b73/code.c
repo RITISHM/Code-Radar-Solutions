@@ -2,7 +2,8 @@
 int main (){
     int size;
     scanf("%d",&size);
-    int arr[size],arr1[];
+    int arr[size];
+    int arr1[];
     for (int i=0;i<size;i++){
         scanf("%d",&arr[i]);
     }
