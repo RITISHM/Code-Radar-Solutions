@@ -12,9 +12,9 @@ int main (){
     for (int i=0;i<size;i++){
         int n=1;
         for (int j=0;j<size;j++){
-            if (arr[i]==arr[j] && j>=i){
-                
-                        arr1[i]=n+1;
+            if (arr[i]==arr[j] && j>i){
+                    int arr3={arr[i] ,n+1 };
+                        arr1[i]=arr3;
                     }
         }
      
