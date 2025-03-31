@@ -9,16 +9,16 @@ int main (){
 
     scanf("%d",&key);
     for (int i=size-1;i>=key;i--){
-        if (i-key+1){
+
             arr1[i-key]=arr[i];
-        }
+        
     }
 
     for (int i=0;i<key;i++){
         arr1[size-key+i]=arr[i];
     }
     for (int i=0;i<size;i++){
-        printf("%d\n",arr1[i]);
+        printf("%d ",arr1[i]);
 
     }
 }                                                                                                         
