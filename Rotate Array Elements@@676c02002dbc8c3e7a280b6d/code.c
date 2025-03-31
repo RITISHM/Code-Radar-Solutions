@@ -13,6 +13,10 @@ int main (){
             arr1[i+key]=arr[i];
         }
     }
+    int j=0;
+    for (int i=size-key;i<size;i++){
+        arr1[j++]=arr[i];
+    }
     for (int i=0;i<size;i++){
         printf("%d\n",arr1[i]);
 
